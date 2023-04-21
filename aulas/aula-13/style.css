@@ -1,0 +1,23 @@
+body{
+    background-color: darkgray;
+    color: black;
+    padding: 12px;
+    font-family: arial;
+
+}
+
+h1{
+    background-color: gray;
+    padding: 6px;
+    border-radius: 12px;
+    color:  darkblue;
+}
+
+h2{
+    color: darkgreen;
+}
+
+p{
+    color: darkred;
+}
+

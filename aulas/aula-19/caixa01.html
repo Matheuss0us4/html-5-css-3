@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: lightgray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            margin: 5px;
+            padding: 4px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 5px;
+            box-shadow: 4px 3px 5px 1px rgba(0, 0, 0, 0.568);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 7px;
+        }
+
+        a:hover {
+            color: rgb(119, 203, 231);
+        }
+
+        main {
+            background-color: white;
+            margin: 5px;
+            padding: 12px;
+            border-radius: 10px 0px ;
+            box-shadow: 2px 2px 8px 0px black;
+  
+        }
+
+        article {
+            background-color: lightgray;
+            margin: 5px;
+            padding: 12px;
+        }
+
+        .assinatura {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            padding: 1px;
+
+        }
+
+        footer > p {
+            margin: 0;
+        }
+
+        .circular {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 50%;
+            margin: auto;/* criando uma bola com estilacao css usado uma div. */
+            
+        }
+
+
+
+        
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="assuntos">
+
+            <p>Esporte noticias Politica</p>
+
+        </section>
+
+        <section class="noticias">
+
+            <article>
+                <h2>Noticias Nacionais</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquid dolor id ullam aspernatur quis nulla architecto omnis, atque, necessitatibus, tempora libero consectetur? Fuga, saepe odio voluptates temporibus perspiciatis dicta!</p>
+
+                <p class="assinatura">artigo escrito por jao.</p>
+            </article>
+
+
+        </section>
+
+    </main>
+
+    <footer><p>Escrito por Jao</p></footer>
+
+    <div class="circular">
+    
+    </div>
+    
+</body>
+
+</html>

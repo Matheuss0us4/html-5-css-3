@@ -1,0 +1,10 @@
+body{
+  background-color: rgb(145, 145, 201);
+  border-radius: 12px;
+  padding-left: 65vh;
+  padding-bottom: 12px;
+}
+
+h1{
+    color: yellow;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Midias em HTML-5</title>
+
+</head>
+
+<body>
+
+    <h1>Midias de diferetes tamanhos</h1>
+
+    <p>tente abrir esse site em varios dispositivos diferentes ou diminua e aumente o tamanho da pagina no seu navegador</p>
+
+    <picture>
+
+
+        <source media="(max-width:750px )" srcset="imagens/pequeno.png" type="image/png">
+
+        <source media="(max-width:1050px )" srcset="imagens/medio.png" type="image/png">
+
+        <img src="imagens/grande.png" alt="imagem-grande">
+    </picture>
+
+    <h1>Adicionando Audio</h1>
+
+    <p>Essa e a forma de adicionar audio</p>
+
+    <audio src="media/honor-and-sword-main-11222.mp3" controls></audio>
+
+    <audio>
+       <source src="media/honor-and-sword-main-11222.mp3" type="mpeg">
+       <source src="media/honor-and-sword-main-11222.mp3" type="ogg">
+       <source src="media/honor-and-sword-main-11222.mp3" type="wav">
+
+       <p>infelismente seu navegador nao consegue reproduzir aqui esta o<a href="media/honor-and-sword-main-11222.mp3"> link do audio</a></p>
+    </audio>
+    
+</body>
+
+</html>

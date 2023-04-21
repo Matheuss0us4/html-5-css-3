@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+
+        a {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+
+        a:visited {
+            color: darkred;
+            
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        a:active {
+            color: green;
+        }
+        
+        .especial {
+            background-color: rgba(43, 226, 58, 0.459);
+        }
+
+        .especial::before {
+            content: '✱';/* assim como no outro exemplo ele coloca textos, emojis, e simbols, so que do autro lado, lembrado que para uasar isso devemos usar o parametro (content) e o item  entre aspas '✱'.*/
+        }
+
+        .especial::after {
+           content: '✱'; /* o lemento (after) srve para colocar coisas do lado do item selecionado coisas como simbolos e emojis e textos. */
+          
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Personalizando liks com Pseudo-elementos</h1>
+
+    <ul>
+        <li><a class="especial" href="https://br.pinterest.com/queirozm352/" target="_blank" rel="next">Pinterest</a></li>
+        <li><a href="https://br.pinterest.com/queirozm352/" target="_blank" rel="next">Canal do youtube</a></li>
+        <li><a class="especial" href="https://github.com/" target="_blank" rel="next">GitHub</a></li>
+    </ul>
+    
+</body>
+
+</html>
