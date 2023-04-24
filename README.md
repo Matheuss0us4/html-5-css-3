@@ -1,4 +1,4 @@
 # html-5-css-3
  Curso de HTML5 e CSS3 do Curso emvideo
 
- Estou estudando HTML e CSS sou iniciante
+ Estudando HTML e CSS
