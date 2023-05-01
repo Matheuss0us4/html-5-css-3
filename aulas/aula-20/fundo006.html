@@ -8,19 +8,26 @@
 
     <style>
         body {
-            background: black;
+           /*  background: black;
             height: 100vh;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
-            background-size: cover;/* 0px, 00%, contain, cover, auto. */
-            background-position: center;
+            background-size: cover; *//* 0px, 00%, contain, cover, auto. */
+           /*  background-position: center;
+            background-attachment: fixed; */
+
+            /* Shorthand-background: 
+            color-image-position-repeat-`(size)-attachment*/
+            
+            background: black url(imagens/wallpaper002.jpg) center no-repeat  fixed;
+            background-size: cover;
                     
         }
 
        div {
         background-color: white;
         padding: 10px;
-        width: 300px;
+        max-width: 300px;
         margin: auto;
         border-radius: 12px;
         border:  2px darkorange solid;
