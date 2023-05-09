@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam&display=swap');
+
+:root {
+    --fontk: 'Kalam';
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,16 +31,20 @@ header p {
     padding-bottom: 50px;
 }
 
-section {
+section {  
+    font-family: var(--fontk);
     padding-top: 10%;
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 40px;
+    font-size: larger;
 }
 
 section.imagem p {
     background-color: rgba(0, 0, 0, 0.384);
     width: 500px;
+    padding: 10px;
+    border-radius: 12px;
 }
 
 .normal {
