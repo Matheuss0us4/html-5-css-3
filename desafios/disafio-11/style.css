@@ -18,9 +18,6 @@
 
 html, body {
     min-height: 100vh;
-    background-color: lightseagreen;
-    
-
 }
 
 header {
@@ -51,21 +48,37 @@ section {
     font-size: 4vw;
 }
 
+section.imagem {
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+}
+
 section.imagem p {
-    background-color: rgba(0, 0, 0, 0.384);
+    
+    background-color: rgba(0, 0, 0, 0.39);
     display: inline-block;
     padding: 10px;
     border-radius: 12px;
+    text-shadow:  1px 1px 0px black;
 }
 
-.normal {
-    background-color: aquamarine;
+section > p {
+    padding-bottom: 2em;
 }
 
-.imagem {
-    background-color: blueviolet;
-
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right top; 
 }
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: left bottom;
+}
+
+
 
 a {
     color: white;
