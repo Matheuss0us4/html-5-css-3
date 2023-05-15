@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            font-family: sans-serif;
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            
+        }
+
+        .linha {
+            background-color: gray;
+        }
+
+        .dado {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Criando tabela</h1>
+
+<!-- 
+    ierarquia de tabelas
+     table-tabela:
+       table-row: linha de tabela
+       table-header: cabecalho de tabela
+       table-data: dados de tabela
+ -->
+
+    <table>
+        <tr class="linha">
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td class="dado">C2</td>
+        </tr>
+        <tr class="linha">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+
+
+   
+    
+</body>
+
+</html>
