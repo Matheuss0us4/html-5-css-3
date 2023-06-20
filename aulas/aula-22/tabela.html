@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de celulas</title>
+
+    <style>
+        body {
+            font: normal 12pt arial; 
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        table td {
+            border: 2px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>  <!-- calspan faz com que o Elemto 'B' ocupe duas colunas que foram colocadas como o parametro-->
+               
+    
+            <tr>
+                <td rowspan="3">D</td>
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+            <tr>
+                
+                <td>H</td>
+                
+            </tr>
+            <tr>
+                
+                
+                <td colspan="2">M</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+
+</html>
